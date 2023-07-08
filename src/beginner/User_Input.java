@@ -11,7 +11,7 @@ public class User_Input {
 
         System.out.println("Name: " + name);
 
-        System.out.printf("Hello %s. how are you?", name);
+        System.out.printf("Hello %s. how are you?", name);  // format specifier (printf)
 
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();  // use nextInt() to read an integer (the age)
